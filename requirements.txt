@@ -1,4 +1,3 @@
-pickle
 spotipy
 flask
 flask_cors
