@@ -60,7 +60,7 @@ music_list = music['song'].values
 
 @app.route('/')
 def home():
-    return render_template('index.html',msg=0)
+    return "Hello"
 
 @app.route('/submit',methods=['POST'])
 def submit():
